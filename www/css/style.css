@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Oleo+Script|Original+Surfer|Baloo+Bhaina');
+/*init*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+}
+@media (max-width: 970px) and (min-width: 650px){
+	body{
+		max-width: 900px;
+	}
+}
+
+ul {
+	list-style: none;	
+}
+
+h1 { color: #d04764; font-family: 'Lobster', cursive; font-size: 36px; font-weight: normal; line-height: 48px; margin: 0 0 18px; text-shadow: 1px 0 0 #fff; }
+
+h2 { color: #2CA4B0; font-family: 'Oleo Script', cursive; font-size: 24px; font-weight: normal; line-height: 32px; margin: 0 0 18px; text-shadow: 1px 0 0 #fff; }
+
+p { color: #333; font-family: 'Original Surfer', cursive; font-size: 16px; line-height: 28px; margin: 0 0 24px; }
+
+a { color: #d04764; font-family: 'Original Surfer', cursive; }
+
+a:hover { text-decoration: underline; cursor: pointer; }
+
+header .logo{
+	font-family: 'Baloo Bhaina', cursive;
+	font-size: 40px;
+	/*border: 1px solid red;*/
+	color:#333;
+	/*max-width:1000px;*/
+	width:100%;
+	margin: auto;
+	box-sizing: border-box;
+	padding:0.2em 25%;
+}
+header nav{
+	/*border: 1px	solid blue;*/
+	
+}
+header nav ul{
+	/*border: 1px	solid green;*/
+	max-width:800px;
+	width:100%;
+	margin: 0 auto;
+	display: flex;
+}
+header nav ul li a{
+	display: inline-block;
+	height: 30px;
+	width: 90px;
+	padding:5px;
+	margin:5px;
+	font-size: 18px;
+	text-align: center;
+}
+main{
+	display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+	padding:2%;
+	background-image: url('/images/memphis-colorful.png');
+}
+main section{
+	/*width: 600px;*/
+}
+
+footer .copyright{
+	font-size: 14px;
+	color:#444;
+	/*max-width:800px;
+	width:100%;*/
+	margin: 0 auto;
+	padding:20px;
+}
